@@ -14,7 +14,7 @@ if not path.exists(current_path + '/backups'):
     mkdir(current_path + '/backups')
 
 del argv[0]
-observer_path = observer_path = str(' '.join(argv)) if len(argv) > 0 else input("Enter path to folder: ")
+observer_path = str(' '.join(argv)) if len(argv) > 0 else input("Enter path to folder: ")
 
 print("Observing folder!")
 
